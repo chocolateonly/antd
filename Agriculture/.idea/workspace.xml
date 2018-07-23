@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list id="1719398d-7ee1-4a28-9cf7-79154f8f95e0" name="Revert &quot;kkk&quot;" comment="Revert &quot;kkk&quot;&#10;&#10;This reverts commit d78070d" />
+    <list default="true" id="cbe17475-0f41-49fa-8601-703e8ab6f519" name="Default" comment="antd">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Agriculture.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/inkscape/fa-exclamation-triangle-red.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/machine-learning-big-data-analysis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locale/en-US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/locale/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/layout/BasicLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/layout/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/layout/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/layout/SiderMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/layout/Test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/units/pathTools.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tariff-react" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="BasicLayout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modules/layout/BasicLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1107">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modules/layout/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modules/layout/Test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiderMenu.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/modules/layout/SiderMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="112" column="10" lean-forward="true" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pathTools.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/units/pathTools.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2268">
+              <caret line="84" column="22" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="101" selection-start-column="101" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="Less File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>activ</find>
+      <find>status</find>
+      <find>model</find>
+      <find>CTIVA</find>
+      <find>TrainProuct</find>
+      <find>edit</find>
+      <find>checkProduct</find>
+      <find>addFormSubmit</find>
+      <find>OpenMidal</find>
+      <find>ShowModal</find>
+      <find>Submit</find>
+      <find>addButtonEvent</find>
+      <find>Now</find>
+      <find>OpenModal</find>
+      <find>modalprams</find>
+      <find>toggleNested</find>
+      <find>prod</find>
+      <find>modalProms</find>
+      <find>ProdActivateView</find>
+      <find>&amp;t=</find>
+      <find>t=</find>
+      <find>onChangeText</find>
+      <find>fireFetchData</find>
+      <find>les</find>
+      <find>onDateChange</find>
+      <find>col</find>
+      <find>pathname</find>
+      <find>home</find>
+      <find>NavLink</find>
+      <find>re</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Link</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\work\tariff-react</dir>
+      <dir>D:\work\tariff-react\src\modules</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/routes/Domain.js" />
+        <option value="$PROJECT_DIR$/src/routes/Domains.js" />
+        <option value="$PROJECT_DIR$/src/modules/settings/reducers/AuthorizedDomainsReducer.js" />
+        <option value="$PROJECT_DIR$/src/modules/settings/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/settings/containers/Domains.js" />
+        <option value="$PROJECT_DIR$/src/modules/settings/components/common.css" />
+        <option value="$PROJECT_DIR$/src/modules/core/components/App.js" />
+        <option value="$PROJECT_DIR$/src/services/query.service.js" />
+        <option value="$PROJECT_DIR$/src/modules/settings/components/ProductCategory.js" />
+        <option value="$PROJECT_DIR$/src/modules/settings/components/SettingItem.js" />
+        <option value="$PROJECT_DIR$/src/modules/settings/components/Messages.js" />
+        <option value="$PROJECT_DIR$/src/modules/products/containers/ProductStepper.js" />
+        <option value="$PROJECT_DIR$/src/modules/settings/actions/domains.js" />
+        <option value="$PROJECT_DIR$/src/modules/settings/components/SettingList.js" />
+        <option value="$PROJECT_DIR$/src/modules/settings/reducers/DomainsReducer.js" />
+        <option value="$PROJECT_DIR$/src/services/domains.service.js" />
+        <option value="$PROJECT_DIR$/styles.less" />
+        <option value="$PROJECT_DIR$/src/test.sass" />
+        <option value="$PROJECT_DIR$/src/styles.less" />
+        <option value="$PROJECT_DIR$/src/modules/settings/components/DomainActivateView.js" />
+        <option value="$PROJECT_DIR$/src/modules/settings/components/Domains.js" />
+        <option value="$PROJECT_DIR$/src/modules/Leftside.js" />
+        <option value="$PROJECT_DIR$/src/modules/Menu.js" />
+        <option value="$PROJECT_DIR$/src/modules/Main.js" />
+        <option value="$PROJECT_DIR$/src/modules/App.css" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/modules/Header.js" />
+        <option value="$PROJECT_DIR$/src/modules/App.less" />
+        <option value="$PROJECT_DIR$/src/modules/BasicLayout.js" />
+        <option value="$PROJECT_DIR$/src/modules/App.js" />
+        <option value="$PROJECT_DIR$/src/lang/locales/en.json" />
+        <option value="$PROJECT_DIR$/src/lang/locales/zh.json" />
+        <option value="$PROJECT_DIR$/src/lang/zh-Hans-CN.js" />
+        <option value="$PROJECT_DIR$/src/lang/en-US.js" />
+        <option value="$PROJECT_DIR$/src/locale/en-US.js" />
+        <option value="$PROJECT_DIR$/src/locale/zh-CN.js" />
+        <option value="$PROJECT_DIR$/src/modules/layout/layout.less" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/../20180709/layoutarea/layoutarea/flex.html" />
+        <option value="$PROJECT_DIR$/src/modules/layout/SlideMenu.js" />
+        <option value="$PROJECT_DIR$/src/modules/layout/SliderMenu.js" />
+        <option value="$PROJECT_DIR$/src/modules/layout/Header.js" />
+        <option value="$PROJECT_DIR$/src/modules/layout/Main.js" />
+        <option value="$PROJECT_DIR$/src/modules/layout/Test.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/modules/layout/BasicLayout.js" />
+        <option value="$PROJECT_DIR$/src/modules/layout/SiderMenu.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="369" />
+    <option name="width" value="1524" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Agriculture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Agriculture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Agriculture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Agriculture" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Agriculture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Agriculture" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="units" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\work\tariff-react\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/yahoo/react-intl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\Agriculture\src\units" />
+      <recent name="D:\work\Agriculture\src\modules\layout" />
+      <recent name="D:\work\Agriculture\src\lang\locales" />
+      <recent name="D:\work\Agriculture\src\locale\lang" />
+      <recent name="D:\work\Agriculture" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\Agriculture\src" />
+      <recent name="D:\work\Agriculture\src\modules\layout" />
+      <recent name="D:\work\Agriculture\src\modules" />
+      <recent name="D:\work\tariff-react\src" />
+      <recent name="D:\work\tariff-react" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbe17475-0f41-49fa-8601-703e8ab6f519" name="Default" comment="" />
+      <created>1530584405803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530584405803</updated>
+      <workItem from="1530584410149" duration="69849000" />
+      <workItem from="1530781677485" duration="19000" />
+      <workItem from="1530781715935" duration="22591000" />
+      <workItem from="1531099737498" duration="1975000" />
+      <workItem from="1531102044037" duration="879000" />
+      <workItem from="1531103009157" duration="10888000" />
+      <workItem from="1531120294070" duration="502000" />
+      <workItem from="1531120815970" duration="87000" />
+      <workItem from="1531120924207" duration="522000" />
+      <workItem from="1531121477740" duration="349000" />
+      <workItem from="1531123172927" duration="7884000" />
+      <workItem from="1531186940679" duration="1438000" />
+      <workItem from="1531273438767" duration="1514000" />
+      <workItem from="1531449144984" duration="3094000" />
+      <workItem from="1531470038503" duration="5443000" />
+      <workItem from="1531705777078" duration="22534000" />
+      <workItem from="1531790532128" duration="7504000" />
+      <workItem from="1531808811866" duration="1377000" />
+      <workItem from="1531892556781" duration="1044000" />
+      <workItem from="1531898149479" duration="8177000" />
+      <workItem from="1531968212559" duration="15627000" />
+      <workItem from="1532068875619" duration="11823000" />
+      <workItem from="1532325355089" duration="12396000" />
+      <workItem from="1532338654137" duration="1093000" />
+    </task>
+    <task id="LOCAL-00001" summary="kkk">
+      <created>1530586387647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530586387647</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revert &quot;kkk&quot;&#10;&#10;This reverts commit d78070d">
+      <created>1530586501155</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530586501155</updated>
+    </task>
+    <task id="LOCAL-00003" summary="加标题和不可见效果">
+      <created>1530589738613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530589738613</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Domian模块实现">
+      <created>1530695327090</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1530695327090</updated>
+    </task>
+    <task id="LOCAL-00005" summary="加标题和不可见效果">
+      <created>1530779697565</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530779697565</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Domain模块日期时间选择">
+      <created>1530857750671</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530857750671</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="208609000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49714938" visible="true" weight="0.1421776" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32919955" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015856" side_tool="true" weight="0.32807216" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45546788" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49841437" weight="0.2356257" />
+      <window_info id="npm" order="2" sideWeight="0.50179857" side_tool="true" weight="0.2548006" />
+      <window_info id="Structure" order="1" sideWeight="0.50285065" side_tool="true" weight="0.32928118" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49926144" weight="0.3697858" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.50179857" side_tool="true" weight="0.2548006" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.49379933" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.17136414" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" sideWeight="0.50179857" side_tool="true" weight="0.2548006" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49714938" visible="true" weight="0.14693446" />
+      <window_info id="Structure" order="1" sideWeight="0.50285065" side_tool="true" weight="0.32928118" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32919955" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2931229" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.21533258" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49926144" weight="0.12852311" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015856" side_tool="true" weight="0.32807216" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" sideWeight="0.49841437" weight="0.2356257" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.49379933" />
+      <window_info id="Favorites" order="3" sideWeight="0.50179857" side_tool="true" weight="0.2548006" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kkk" />
+    <MESSAGE value="Revert &quot;kkk&quot;&#10;&#10;This reverts commit d78070d" />
+    <MESSAGE value="Domian模块实现" />
+    <MESSAGE value="加标题和不可见效果" />
+    <MESSAGE value="Domain模块添加日期时间选择" />
+    <MESSAGE value="Domain模块日期时间选择" />
+    <MESSAGE value="antd" />
+    <option name="LAST_COMMIT_MESSAGE" value="antd" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/styles.less" />
+    <entry file="file://$PROJECT_DIR$/src/modules/settings/components/DomainActivateView.js" />
+    <entry file="file://$PROJECT_DIR$/src/styles.css.map" />
+    <entry file="file://$PROJECT_DIR$/src/modules/settings/components/Domains.js" />
+    <entry file="file://$PROJECT_DIR$/../20180709/blank/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/src/modules/Leftside.js" />
+    <entry file="file://$PROJECT_DIR$/../tariff-react/src/modules/products/components/ProdFactorEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tariff-react/src/modules/core/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tariff-react/src/modules/core/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2457">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tariff-react/src/modules/products/components/NewProduct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1782">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tariff-react/src/modules/products/components/ProdRuleTreeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="114" column="15" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tariff-react/src/modules/stepper/components/Stepper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="122" column="20" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tariff-react/node_modules/react-icons/lib/fa/backward.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tariff-react/src/modules/products/components/ProdFactorTreeView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/service-worker.js" />
+    <entry file="file://$PROJECT_DIR$/src/modules/layout/BasicLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180709/create-react-app-antd/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180709/create-react-app-antd/src/BasicLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180709/create-react-app-antd/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="https://github.com/yahoo/react-intl">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180709/create-react-app-antd/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lang/locales/en.json" />
+    <entry file="file://$PROJECT_DIR$/src/lang/locales/zh.json" />
+    <entry file="file://$PROJECT_DIR$/src/lang/zh-Hans-CN.js" />
+    <entry file="file://$PROJECT_DIR$/src/lang/en-US.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/date-picker/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/layout/layout.less" />
+    <entry file="file://$PROJECT_DIR$/src/modules/layout/layout.css" />
+    <entry file="file://$PROJECT_DIR$/src/App.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/zh-CN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180709/intl-example-master/locales/en.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/en-US.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../20180709/layoutarea/layoutarea/flex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/layout/Menu.js" />
+    <entry file="file://$PROJECT_DIR$/config-overrides.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/layout/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/layout/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/layout/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/assets/img/machine-learning-big-data-analysis.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="101" selection-start-column="101" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/units/utils.js" />
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/units/pathTools.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/layout/BasicLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/layout/SiderMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="112" column="10" lean-forward="true" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20426829" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
