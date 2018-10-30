@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import DrawerMenu from "rc-drawer";
 import "rc-drawer/assets/index.css";
 import { Layout, Menu, Icon } from "antd";
-import {urlToList} from '../../units/pathTools'
-import pathToRegexp from 'path-to-regexp';
+import { urlToList } from "../units/pathTools";
+import pathToRegexp from "path-to-regexp";
+
 const { Sider } = Layout;
 const { SubMenu, Item } = Menu;
-const rootSubmenuKeys = ["/nav1","/nav1/item1","/nav1/item2" ,"/nav2", "/nav3","/nav4"];
 
 const menuData = [
   {
-    path:'/nav1',
+    path: "/nav1",
     name: "导航一",
     icon: "mail",
     children: [
@@ -20,13 +20,19 @@ const menuData = [
         path: "/nav1/item1"
       }, {
         name: "二级菜单2",
-        path: "/nav1/item2"
+        path: "/nav1/item2",
+        children: [
+          {
+            name: "二级菜单3",
+            path: "/nav1/item2/test"
 
+          }
+        ]
       }
     ]
   }, {
     name: "导航二",
-    path:'/nav2',
+    path: "/nav2",
     icon: "appstore",
     children: [
       {
@@ -72,16 +78,17 @@ export const getMenuMatchKeys = (flatMenuKeys, paths) =>
       matchKeys.concat(flatMenuKeys.filter(item => pathToRegexp(item).test(path))),
     []
   );
+
 class SiderMenu extends Component {
 
   constructor(props) {
     super(props);
     this.flatMenuKeys = getFlatMenuKeys(menuData);
     this.state = {
-      openKeys: this.getDefaultCollapsedSubMenus(props),
-      defaultSelectedKeysVal: [props.history.location.pathname]
+      openKeys: this.getDefaultCollapsedSubMenus(props)
     };
   }
+
   /**
    * Convert pathname to openKeys
    * /list/search/articles = > ['list','/list/search']
@@ -89,24 +96,20 @@ class SiderMenu extends Component {
    */
   getDefaultCollapsedSubMenus(props) {
     const {
-      location: { pathname },
-    } =
-    props || this.props;
+      location: { pathname }
+    } = props;
     return getMenuMatchKeys(this.flatMenuKeys, urlToList(pathname));
   }
 
+  isMainMenu = key => {
+    return this.flatMenuKeys.some(item => key && (item.key === key || item.path === key));
+  };
   onOpenChange = (openKeys) => {
+    const lastOpenKey = openKeys[openKeys.length - 1];
+    const moreThanOne = openKeys.filter(openKey => this.isMainMenu(openKey)).length > 1;
     this.setState({
-      defaultSelectedKeysVal: []
+      openKeys: moreThanOne ? [lastOpenKey] : [...openKeys]
     });
-    const latestOpenKey = openKeys.find(key => this.state.openKeys.indexOf(key) === -1);
-    if (rootSubmenuKeys.indexOf(latestOpenKey) === -1) {
-      this.setState({ openKeys });
-    } else {
-      this.setState({
-        openKeys: latestOpenKey ? [latestOpenKey] : []
-      });
-    }
   };
 
   MenuItem(dataSource) {
@@ -126,6 +129,13 @@ class SiderMenu extends Component {
     );
   }
 
+  // Get the currently selected menu
+  getSelectedMenuKeys = () => {
+    const {
+      location: { pathname }
+    } = this.props;
+    return getMenuMatchKeys(this.flatMenuKeys, urlToList(pathname));
+  };
 
   render() {
     const { collapsed, isMobile, onCollapse } = this.props;
@@ -135,6 +145,11 @@ class SiderMenu extends Component {
       : {
         openKeys
       };
+    // if pathname can't match, use the nearest parent's key
+    let selectedKeys = this.getSelectedMenuKeys();
+    if (!selectedKeys.length) {
+      selectedKeys = [openKeys[openKeys.length - 1]];
+    }
     return isMobile ?
       (<DrawerMenu
         onHandleClick={() => {
@@ -153,9 +168,9 @@ class SiderMenu extends Component {
         >
           <div className="logo"/>
           <Menu theme="dark" mode="inline"
-                defaultSelectedKeys={defaultSelectedKeysVal}
                 {...menuProps}
                 onOpenChange={this.onOpenChange}
+                selectedKeys={selectedKeys}
           >
 
             {
@@ -178,8 +193,8 @@ class SiderMenu extends Component {
           <Menu theme="dark" mode="inline"
 
                 {...menuProps}
-                defaultSelectedKeys={defaultSelectedKeysVal}
                 onOpenChange={this.onOpenChange}
+                selectedKeys={selectedKeys}
           >
 
             {
@@ -188,6 +203,15 @@ class SiderMenu extends Component {
           </Menu>
         </Sider>
       );
+  }
+
+  componentWillReceiveProps(nextProps) {
+    const { location } = this.props;
+    if (nextProps.location.pathname !== location.pathname) {
+      this.setState({
+        openKeys: this.getDefaultCollapsedSubMenus(nextProps)
+      });
+    }
   }
 }
 

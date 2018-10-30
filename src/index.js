@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import SliderDemo from './modules/layout/BasicLayout'
-import {BrowserRouter as Router} from 'react-router-dom'
 import '../node_modules/antd/dist/antd.css'
+import SliderDemo from './modules/demo/layout/BasicLayout'
 ReactDOM.render(
-  <Router>
-    <App />
-  </Router>
+    <SliderDemo />
 ,
   document.getElementById('root')
 );

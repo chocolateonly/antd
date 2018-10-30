@@ -1,5 +1,4 @@
 import React, { PropTypes }  from 'react';
-import '../../App.css'
 import { DatePicker } from 'antd';
 
  class Test extends React.Component{
@@ -13,7 +12,7 @@ import { DatePicker } from 'antd';
       </div>
     )
   }
-};
+}
 
 
 export default Test
